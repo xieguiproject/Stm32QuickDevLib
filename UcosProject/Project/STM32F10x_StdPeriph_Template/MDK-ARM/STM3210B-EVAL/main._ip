@@ -1,0 +1,6 @@
+..\main.c -E -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\ -I ..\..\..\Libraries\CMSIS\CM3\CoreSupport -I ..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\..\..\Utilities\STM32_EVAL -I ..\..\..\Utilities\STM32_EVAL\STM3210B_EVAL -I ..\..\..\Utilities\STM32_EVAL\Common -I ..\Bsp -I ..\MQTT
+-IC:\Users\gavinX\Desktop\GetWifiInfo\Project\STM32F10x_StdPeriph_Template\MDK-ARM\RTE\_STM32Project
+-Ie:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-Ie:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\stm3210b-eval\main.i --list_dir ".\\STM3210B-EVAL\\" --list
